@@ -1,0 +1,8 @@
+#!/bin/sh
+set -x
+
+# Compile
+gcc -c ucc.c -o ucc.o
+
+# Link
+gcc -o ucc ucc.o

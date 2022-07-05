@@ -1,0 +1,3 @@
+#!/bin/sh
+set -x
+./ucc tests/test.uc
