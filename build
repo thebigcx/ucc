@@ -3,6 +3,8 @@ set -x
 
 # Compile
 gcc -c ucc.c -o ucc.o
+gcc -c lexer.c -o lexer.o
+gcc -c parser.c -o parser.o
 
 # Link
-gcc -o ucc ucc.o
+gcc -o ucc ucc.o lexer.o parser.o
